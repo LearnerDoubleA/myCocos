@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.36184964461649366,
-      "y": 0.36184964461649366,
+      "x": 0.4885009765625,
+      "y": 0.4885009765625,
       "z": 1
     },
     "_quat": {
@@ -55,7 +55,7 @@
     "_zIndex": 0,
     "groupIndex": 0,
     "autoReleaseAssets": true,
-    "_id": "0342df33-a0f5-48a5-ab26-f05aac810620"
+    "_id": "23e37ba3-fb0c-468a-8769-f8790423bad0"
   },
   {
     "__type__": "cc.Node",
@@ -76,7 +76,7 @@
     "_level": 0,
     "_components": [
       {
-        "__id__": 8
+        "__id__": 9
       }
     ],
     "_prefab": null,
@@ -123,7 +123,7 @@
     "_skewY": 0,
     "_zIndex": 0,
     "groupIndex": 0,
-    "_id": "a98jlomsBNBonBLvXXnFOj"
+    "_id": "e5t19jZlhKHLmihMQCmDJf"
   },
   {
     "__type__": "cc.Node",
@@ -151,8 +151,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 2,
-      "height": 40
+      "width": 0,
+      "height": 0
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -161,8 +161,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
     "_scale": {
@@ -184,7 +184,7 @@
     "_skewY": 0,
     "_zIndex": 0,
     "groupIndex": 0,
-    "_id": "55OCoySAVAAZuzxss/kbf+"
+    "_id": "16B5XEU2BFpb6XbWv7wvGs"
   },
   {
     "__type__": "cc.Camera",
@@ -198,15 +198,15 @@
     "_clearFlags": 7,
     "_backgroundColor": {
       "__type__": "cc.Color",
-      "r": 245,
-      "g": 233,
-      "b": 233,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_depth": -1,
     "_zoomRatio": 1,
     "_targetTexture": null,
-    "_id": "d5ogyzlXlFDK/Lpx7ibzz/"
+    "_id": "3chCtMgGZOv47d4bkBGii7"
   },
   {
     "__type__": "cc.Node",
@@ -270,7 +270,7 @@
     "_skewY": 0,
     "_zIndex": 0,
     "groupIndex": 0,
-    "_id": "569f1Q8n5Gl6Pdje5OwR9I"
+    "_id": "48x/BTDbhLBrIaw6Tl3pmH"
   },
   {
     "__type__": "cc.Graphics",
@@ -285,9 +285,9 @@
     "_lineWidth": 1,
     "_strokeColor": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
+      "r": 22,
+      "g": 2,
+      "b": 2,
       "a": 255
     },
     "_lineJoin": 2,
@@ -300,17 +300,40 @@
       "a": 255
     },
     "_miterLimit": 10,
-    "_id": "01l7Kum5tAhYaF4DwWtQjt"
+    "_id": "68QT8lT0lABIKkjklpYGUg"
   },
   {
-    "__type__": "ab42eOWKdVKmopu6OJ+euZn",
+    "__type__": "075abEs0clJCJWICjGcWm4A",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 5
     },
     "_enabled": true,
-    "_id": "c0QfXRE81JK5ZXuGDmRhdR"
+    "speed": 1,
+    "waves": [
+      {
+        "__id__": 8
+      }
+    ],
+    "_id": "5e98vIAQdBVLpnCnTOONbH"
+  },
+  {
+    "__type__": "Wave",
+    "timeModifier": 1,
+    "amplitude": 50,
+    "wavelength": 50,
+    "segmentLength": 10,
+    "lineWidth": 1,
+    "waveType": 0,
+    "easeType": 1,
+    "strokeColor": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 100
+    }
   },
   {
     "__type__": "cc.Canvas",
@@ -327,6 +350,6 @@
     },
     "_fitWidth": false,
     "_fitHeight": true,
-    "_id": "77w65OqFlJd7bf0nLKVkU1"
+    "_id": "a0s47/RE9PSaoj25kqxRjn"
   }
 ]
